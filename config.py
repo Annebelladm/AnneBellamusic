@@ -22,7 +22,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7255521162))
+OWNER_ID = int(getenv("OWNER_ID", 8093741093))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -43,14 +43,14 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+NsN2e12MiD5jZmIx")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AnneBelladmGc")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/AnneBella_Music")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/AnneBellakgc")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
 
 # make your bots privacy from telegra.ph and put your url here 
-PRIVACY_LINK = getenv("PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-AviaxMusic-08-14")
+PRIVACY_LINK = getenv("PRIVACY_LINK", "http://telegra.ph/AnneBella-Verification-Certificate-07-06-3")
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
@@ -121,4 +121,5 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
