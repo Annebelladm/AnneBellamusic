@@ -14,15 +14,15 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", mongodb+srv://kamalkishor165040:kamalkishor165040@cluster0.wxloo4t.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", -1002696544810))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 7504143220))
+OWNER_ID = int(getenv("OWNER_ID", 8093741093))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -32,7 +32,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
 VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", None) # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
+API_KEY = getenv("API_KEY", 30DxNexGenBotsb7c61c) # youtube song api key, generate free key or buy paid plan from panel.thequickearn.xyz
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
@@ -121,6 +121,7 @@ if SUPPORT_GROUP:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_GROUP url is wrong. Please ensure that it starts with https://"
         )
+
 
 
 
